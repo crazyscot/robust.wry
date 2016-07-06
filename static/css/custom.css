@@ -9,3 +9,6 @@
     height: 0;
     clear: both;
 }
+figcaption h4 {
+    font-style: italic;
+}
