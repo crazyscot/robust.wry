@@ -15,3 +15,9 @@ figcaption h4 {
 .floatright figure {
     margin: 1ex 0;
 }
+.floatbox {
+    float: right;
+}
+.floatbox pre {
+    margin: 0 !important;
+}
