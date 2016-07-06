@@ -24,3 +24,9 @@ figcaption h4 {
 pre code {
     font-size: 120% !important;
 }
+.boxout {
+    border: 1px solid black;
+}
+.boxout pre {
+    margin: 0 !important;
+}
