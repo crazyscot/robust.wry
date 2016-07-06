@@ -46,7 +46,11 @@
         <div class="body">
           <h1>{{ .Title }}</h1>
           <div class="date">
+              Posted on
               <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+
+              in {{ range $index, $cat := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
+              with tags {{ range $index, $tag := .Params.tags }}{{ if gt $index 0 }}, {{ end }}<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}.
           </div>
           {{ .Content }}
         </div>
