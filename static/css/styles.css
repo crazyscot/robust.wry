@@ -188,7 +188,7 @@ section>div {
 
 /* Parts:article */
 article {
-  word-break: break-all;
+  word-break: normal;
 }
 
 article>a {
