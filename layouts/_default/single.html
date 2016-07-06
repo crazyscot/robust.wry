@@ -45,6 +45,9 @@
         <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
         <div class="body">
           <h1>{{ .Title }}</h1>
+          <div class="date">
+              <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+          </div>
           {{ .Content }}
         </div>
 
