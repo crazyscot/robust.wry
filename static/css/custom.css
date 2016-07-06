@@ -12,3 +12,6 @@
 figcaption h4 {
     font-style: italic;
 }
+.floatright figure {
+    margin: 1ex 0;
+}
