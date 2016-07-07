@@ -344,3 +344,13 @@ ol.h-inline {
   display: inline-block;
   margin-right: .5rem;
 }
+
+pre code {
+    font-size: 120% !important;
+}
+
+.blurb {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+}
