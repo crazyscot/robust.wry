@@ -30,3 +30,8 @@ pre code {
 .boxout pre {
     margin: 0 !important;
 }
+.blurb {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+}
