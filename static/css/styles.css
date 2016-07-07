@@ -254,6 +254,7 @@ article.grid .summary {
   max-height: 4.3rem;
   line-height: 1.05rem;
   overflow: hidden;
+  padding-bottom: 0.1rem;
 }
 
 article.grid footer {
