@@ -357,3 +357,11 @@ pre code {
     padding: 1rem;
     background-color: #fff;
 }
+
+ul.socialmenu {
+    list-style-type: none;
+}
+ul.socialmenu li {
+    padding-left: 2em;
+    text-indent: -2em;
+}
