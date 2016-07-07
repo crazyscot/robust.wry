@@ -251,7 +251,9 @@ article.grid .title {
 
 article.grid .summary {
   color: #333;
-  max-height: 4rem;
+  max-height: 4.3rem;
+  line-height: 1.05rem;
+  overflow: hidden;
 }
 
 article.grid footer {
