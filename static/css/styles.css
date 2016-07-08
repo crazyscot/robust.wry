@@ -232,8 +232,8 @@ article.li .title {
 article.grid {
   margin-bottom: 2rem;
   background-color: #fff;
-  height: 24rem;
-  max-height: 24rem;
+  height: 22rem;
+  max-height: 22rem;
   overflow: hidden;
 }
 
