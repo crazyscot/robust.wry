@@ -4,9 +4,11 @@
         <ul class="socialmenu">
 
     {{ if .RSSlink }}
+    {{ if and (ne .URL "/categories/") (ne .URL "/tags/") }}{{/* work around https://github.com/spf13/hugo/issues/1302 */}}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="{{ .RSSlink }}"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
+    {{ end }}
     {{ end }}
 
     <!-- SNS microblogging -->
