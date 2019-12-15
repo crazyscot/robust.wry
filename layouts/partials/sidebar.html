@@ -38,7 +38,8 @@
   <section>
     <header>Latest Posts</header>
     <div>
-      {{ range first 10 .Site.Pages }}
+      {{ $realPages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+      {{ range first 10 $realPages }}
       {{ .Render "li" }}
       {{ end }}
     </div>
